@@ -1,7 +1,7 @@
 import XCTest
 
-import SwiftCGRectExtensionsTests
+import CGRectExtensionsTests
 
 var tests = [XCTestCaseEntry]()
-tests += SwiftCGRectExtensionsTests.allTests()
+tests += CGRectExtensionsTests.allTests()
 XCTMain(tests)
