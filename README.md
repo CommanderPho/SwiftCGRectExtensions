@@ -1,6 +1,8 @@
+# CGRectExtensions
 Swift CGRect Extensions
 =======================
 
+Common CGRect extensions, originally from a framewroky by Nikolaj Schumacher. Modified by Pho Hale and converted to a Swift Package Manager Package.
 A collection of `CGRect`, `CGPoint` and `CGSize` convenience functions for Swift on OS X and iOS.
 
 The goal is to provide clear functions for the most commonly used rect operations, even if the code savings are minimal. The reason is that function names communicate the programmer's intent more clearly than setting properties with ad-hoc calculations.
