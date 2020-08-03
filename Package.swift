@@ -7,9 +7,12 @@ let package = Package(
     name: "CGRectExtensions",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
-        .library(
-            name: "CGRectExtensions",
-            targets: ["CGRectExtensions"]),
+//        .library(
+//            name: "CGRectExtensions",
+//            targets: ["CGRectExtensions"]),
+		.library(name: "CGRectExtensionsDyn", type: .dynamic, targets: ["CGRectExtensions"]),
+		.library(name: "CGRectExtensions", targets: ["CGRectExtensions"]),
+		
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
